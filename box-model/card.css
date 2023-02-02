@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(165, 211, 211);
+}
+.card{
+    width: 300px;
+    background-color: rgb(237, 237, 178);
+    margin: 60px;
+
+}
+.card-image {
+    width: 100%;
+
+}
+.card-image img {
+    width: 100%;
+            
+}
+.card-detail{
+    padding: 0px 0px 20px 20px;
+
+}
+.card-detail{
+    text-align: center;
+}
+.card{
+    box-shadow: 2px 2px 20px 2px;
+}
+.body{
+   
+}

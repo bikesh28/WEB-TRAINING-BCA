@@ -1,0 +1,45 @@
+
+/* 
+    
+
+    /**1 .BORDER AND PADDING**/
+
+    /**box ko border ma color haleko**/
+    p{
+    background-color: rgb(140, 145, 169);
+    border: 5px solid black;
+    padding: 30px 100px 30px 70px;   /**clockwise from top**/
+    margin: 40px  ;
+    box-shadow:10px 10px 10px 10px rgb(174, 174, 220) ;/**gives 3d effect**/
+    }
+
+    /**2.BOX MODEL- SANO THULO BLOCK **/
+    /**block element(page ko sabbai thau cover garne ani next element tesko tala maatra aaune) and 
+    inline element(sabbai space us ena garne ani next content ko lagi thau hune  :<a>,)**/
+
+    a{
+    background-color: palevioletred;
+    margin: 0px 50px;
+    padding-left: 80 px;
+    border: 5px solid rgb(227, 227, 227);
+    box-shadow:  5px 5px 5px 5px paleturquoise ;
+    }
+*/
+
+body{
+    background-color: aquamarine;
+}
+.card{
+    width: 300px;
+    background-color: rgb(224, 224, 94);
+    margin: 60px;
+
+}
+.card-image {
+    width: 100%;
+
+}
+.card-image img {
+    width: 100%;
+            
+}
