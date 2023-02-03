@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*boxsizing: borderbox le padding ra margin include garera width calculate garxa */
+
+}
+header{
+    
+    color: rgb(228, 224, 224);
+    background-color: #1b426e;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.menu{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.link{
+    display: flex;
+    gap: 10px;
+}
+button{
+    border-radius: 25%;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    /* background-color: peachpuff; */
+    background: peachpuff;
+}
+/* .social{
+    display: flex;
+    justify-content: end;
+} */
+.hero{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .subscribe{
+    color: blue;
+    border: blue;
+} */
+
