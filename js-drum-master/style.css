@@ -1,0 +1,49 @@
+
+
+/* ********Normalization********** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    height: 100vh;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    }
+.key-container{
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    align-items: center;
+    
+    
+}
+.key{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px 5px;
+    width: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+kbd{
+    display: block;
+    font-size: 30px;
+}
+.sound{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(231, 152, 43);
+
+}
