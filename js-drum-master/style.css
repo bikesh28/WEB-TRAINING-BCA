@@ -47,3 +47,8 @@ kbd{
     color: rgb(231, 152, 43);
 
 }
+ .key:hover{
+    background: rgba(217, 124, 58, 0.4);
+    transition:  ease-in-out;
+
+} 
