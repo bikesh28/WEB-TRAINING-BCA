@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="bg-gray-200 h-screen flex justify-center items-center">
+    <div class="bg-slate-500 w-1/2 rounded-xl flex shadow-2xl rounded-xl">
+        <img src="./1641655294771.jpg" class="w-96 h-64" >
+        <div class="py-4 px-12 text-white">
+                <blockquote>
+                    “Tailwind CSS is the only framework that I've seen scale
+                    on large teams. It’s easy to customize, adapts to any design,
+                    and the build size is tiny.”
+                </blockquote>
+                <div class="user mt-6 ">
+                    <div class="name text-sky-900 font-bold">Nabin Dahal</div>
+                    <div class="position text-slate-700">Gandu Lal</div>
+                </div>
+
+        </div>
+    </div>
+    <button class="bg-blue-500 text-white ">Dark mode</div>
+ </div>
+ 
+ <script>
+    const user = $('.user');
+    user.on('click',function(){
+        $('.name').addClass('text-red-500');
+    });
+    $('button').on('click',function(){
+        $.ajax({
+            method: 'get',
+            url : 'https://icanhazdadjoke.com/',
+            headers:{
+                'Accept': 'application/json'
+            }
+
+        }).then(function(data){
+            $('blockquote').text(data.joke);
+        })
+    })
+    
+
+
+ </script>
+</body>
+</html>
